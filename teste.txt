@@ -1,1 +1,2 @@
 mostrando teste do git lens
+Teste 2 do GIT
