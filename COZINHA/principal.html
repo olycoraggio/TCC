@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PRINCIPAL</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $("#cancelarBotao03").click(function () {
+                $("#box03").fadeOut(500);
+            });
+            $(".finalizado").click(function () {
+                $("#box01").fadeOut(500);
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+
+    <div>
+        <table id="barra">
+            <tr>
+                <td>
+                    <a id="botaoBack" href="index.html">
+                        <i class="material-icons" id="back">arrow_back_ios</i>
+                    </a>
+                </td>
+
+                <td>
+                    <p class="tituloPag">PEDIDOS</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </table>
+    </div>
+
+    <hr class="hr3">
+
+    <div>
+        <div class="row">
+
+<!-- CARD 01 -->
+            <div class="column" id="box01">
+                <div class="card">
+                    <div>
+                        <table class="cardTabela">
+                            <tr>
+                                <th class="mesa">
+                                    Mesa 03
+                                </th>
+
+                                <td class="botaoCancelar">
+                                    <i class="material-icons" class="cancelar">cancel</i>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <hr class="hr3">
+
+                    <div>
+                        <table class="cardTabela">
+                            <tr>
+                                <th class="corpoCard">
+                                    2
+                                </th>
+
+                                <td class="corpoCard">
+                                    Hamburguer tradicional
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="corpoCard">
+                                    2
+                                </th>
+
+                                <td class="corpoCard">
+                                    Batata média
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="corpoCard">
+                                    2
+                                </th>
+
+                                <td class="corpoCard">
+                                    Refrigerante médios </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <hr class="hr3">
+
+                    <table class="cardTabela">
+                        <tr>
+                            <th class="tempo">
+                                17:14
+                            </th>
+
+                            <td>
+                                <button class="finalizado">FINALIZADO</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+<!-- CARD 02 -->
+            <div class="column" id="box02">
+                <div class="card">
+                    <div>
+                        <table class="cardTabela">
+                            <tr>
+                                <th class="mesa">
+                                    Mesa 04
+                                </th>
+
+                                <td class="botaoCancelar">
+                                    <i class="material-icons" class="cancelar">cancel</i>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <hr class="hr3">
+
+                    <div>
+                        <table class="cardTabela">
+                            <tr>
+                                <th class="corpoCard">
+                                    1
+                                </th>
+
+                                <td class="corpoCard">
+                                    Batata especial
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="corpoCard">
+                                    1
+                                </th>
+
+                                <td class="corpoCard">
+                                    Refrigerante grande
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <hr class="hr3">
+
+                    <table class="cardTabela">
+                        <tr>
+                            <th class="tempo">
+                                17:17
+                            </th>
+
+                            <td>
+                                <button>FINALIZADO</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+<!-- CARD 03 -->
+            <div class="column" id="box03">
+                <div class="card">
+                    <div>
+                        <table class="cardTabela">
+                            <tr>
+                                <th class="mesa">
+                                    Mesa 01
+                                </th>
+
+                                <td class="botaoCancelar">
+                                    <i class="material-icons" class="cancelar" id="cancelarBotao03">cancel</i>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <hr class="hr3">
+
+                    <div>
+                        <table class="cardTabela">
+                            <tr>
+                                <th class="corpoCard">
+                                    1
+                                </th>
+
+                                <td class="corpoCard">
+                                    Sorvete de casquinha
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="corpoCard">
+                                    1
+                                </th>
+
+                                <td class="corpoCard">
+                                    Garrafa de agua
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <hr class="hr3">
+
+                    <table class="cardTabela">
+                        <tr>
+                            <th class="tempo">
+                                17:16
+                            </th>
+
+                            <td>
+                                <button>FINALIZADO</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+<!-- CARD 04 -->
+            <div class="column">
+                <div class="card">
+                    <div>
+                        <table class="cardTabela">
+                            <tr>
+                                <th class="mesa">
+                                    Mesa 02
+                                </th>
+
+                                <td class="botaoCancelar">
+                                    <i class="material-icons" class="cancelar">cancel</i>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <hr class="hr3">
+
+                    <div>
+                        <table class="cardTabela">
+                            <tr>
+                                <th class="corpoCard">
+                                    2
+                                </th>
+
+                                <td class="corpoCard">
+                                    Hamburguer especial
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="corpoCard">
+                                    1
+                                </th>
+
+                                <td class="corpoCard">
+                                    Batata grande
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="corpoCard">
+                                    2
+                                </th>
+
+                                <td class="corpoCard">
+                                    Refrigerante médios </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <hr class="hr3">
+
+                    <table class="cardTabela">
+                        <tr>
+                            <th class="tempo">
+                                17:30
+                            </th>
+
+                            <td>
+                                <button>FINALIZADO</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div>
+        <a href="historico.html" class="botaoHistorico" id="cancelarBotao01">HISTÓRICO</a>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
