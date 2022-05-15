@@ -34,13 +34,10 @@ header {
     background-color: #fabbbb;
     padding: 5px 20px;
     border-radius: 5px;
-
 }
 
 .menu-aberto span {
     margin-right: 10px;
-
-
 }
 
 .menu-fechado {
@@ -48,7 +45,6 @@ header {
     height: 32px;
     display: none;
     font-size: 30px;
-
 }
 
 aside {
@@ -61,29 +57,24 @@ aside {
 
 aside.show {
     width: 30vw;
-
 }
 
 .area--carinho {
     padding: 20px;
-
 }
 
 main {
     flex: 1;
     padding: 20px;
-
 }
 
 h1 {
     font-family: 'Hepta Slab'Arial, Helvetica, sans-serif;
-
 }
 
 .modelos-area {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
 }
 
 .modelos-item {
@@ -99,7 +90,6 @@ h1 {
     align-items: center;
     text-decoration: none;
     background-color: none;
-
 }
 
 .modelos-item a:link {
@@ -123,7 +113,6 @@ h1 {
     width: 100%;
     height: auto;
     border-radius: 20px;
-
 }
 
 .modelos-item--add {
@@ -138,12 +127,10 @@ h1 {
     cursor: pointer;
     margin-top: -25px;
     transition: all ease .2s;
-
 }
 
 .modelos-item a:hover .modelos-item--add {
     background-color: none;
-
 }
 
 .modelos-item--preco {
@@ -151,8 +138,6 @@ h1 {
     color: #333;
     margin-top: 5px;
     font-weight: 800;
-
-
 }
 
 .modelos-item--nome {
@@ -160,14 +145,12 @@ h1 {
     color: #000;
     font-weight: bold;
     margin-top: 5px;
-
 }
 
 .modelos-item--desc {
     font-size: 13px;
     color: #555;
     margin-top: 10px;
-
 }
 
 .modelosWindowArea {
@@ -182,7 +165,6 @@ h1 {
     justify-content: center;
     align-items: center;
     overflow-y: auto;
-
 }
 
 .modelosWindowBody {
@@ -192,7 +174,6 @@ h1 {
     box-shadow: 0px 0px 15px #999;
     display: flex;
     margin: 20px 0px;
-
 }
 
 .modelosBig {
@@ -200,7 +181,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .modelosBig--back {
@@ -219,12 +199,10 @@ h1 {
     flex: 1;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 50px;
-
 }
 
 .modelosInfo h1 {
     margin-top: 50px;
-
 }
 
 .modelosInfo .modelosInfo--desc {
@@ -232,7 +210,6 @@ h1 {
     color: rgb(138, 38, 38);
     margin-top: 10px;
     font-family: Helvetica;
-
 }
 
 .modelosInfo--sector {
@@ -242,18 +219,15 @@ h1 {
     font-size: 14px;
     margin-top: 30px;
     margin-bottom: 10px;
-
 }
 
 .modelosInfo--sizes {
     display: inline-flex;
     border-radius: 10px;
     overflow: hidden;
-
 }
 
 .modelosInfo--sizes {
-
     padding: 10px 25px;
     color: #000;
     background-color: rgb(241, 241, 241);
@@ -261,7 +235,6 @@ h1 {
     box-shadow: 0px 2px 5px 0px black;
     font-weight: bold;
     cursor: pointer;
-
 }
 
 .buttonSize {
@@ -275,40 +248,32 @@ h1 {
 
 .modelosInfo--size:hover {
     background-color: rgb(184, 179, 179);
-
 }
 
 .modelosInfo--size.selected {
     border-radius: 0.9em;
     background-color: #48D05F;
     color: #FFF;
-
-
 }
 
 .modelosInfo--size.selected span {
     color: #D6D6D6;
-
 }
 
 .modelosInfo--size span {
     font-size: 12px;
     color: #999;
     font-weight: normal;
-
-
 }
 
 .modelosInfo--preco {
     display: flex;
     align-items: center;
-
 }
 
 .modelosInfo--actualPreco {
     font-size: 20px;
     margin-right: 30px;
-
 }
 
 .modelosInfo--qtarea {
@@ -332,7 +297,6 @@ h1 {
 }
 
 .modelosInfo--qt {
-
     line-height: 30px;
     font-size: 12px;
     font-weight: bold;
@@ -350,21 +314,17 @@ h1 {
     display: inline-block;
     cursor: pointer;
     margin-right: 30px;
-
-
-
 }
 
 .modelosInfo--addButton:hover {
     background-color: #32A345;
-
 }
 
 .modelosInfo--cancelButton {
     display: inline-block;
     cursor: pointer;
-
-
+    font-weight: 900;
+    font-size: 1.5em;
 }
 
 .modelosInfo--cancelMobileButton {
@@ -373,27 +333,24 @@ h1 {
     text-align: center;
     line-height: 40px;
     margin-bottom: 30px;
-
-
+    font-weight: 900;
+    font-size: 1.5em;
 }
 
 .cart {
     margin-bottom: 20px;
-
 }
 
 .cart--item {
     display: flex;
     align-items: center;
     margin: 10px 0;
-
 }
 
 .cart--item img {
     width: 40px;
     height: 40px;
     margin-right: 20px;
-
 }
 
 .cart--item-nome {
@@ -438,7 +395,6 @@ h1 {
     font-weight: bold;
     color: #000;
     font-weight: bold;
-
 }
 
 .cart--finalizar {
@@ -451,7 +407,6 @@ h1 {
     margin-top: 20px;
     border: 2 solid #63F77C;
     transition: all ease .2s;
-
 }
 
 .cart--finalizar:hover {
@@ -461,14 +416,12 @@ h1 {
 @media(max-width:1000px) {
     .modelos-area {
         grid-template-columns: reapat(2, 1fr);
-
     }
 }
 
 @media(max-width:840px) {
     body {
         flex-direction: column;
-
     }
 
     .modelos-area {
@@ -496,7 +449,6 @@ h1 {
         top: 0;
         bottom: 0;
         transition: all ease .2s;
-
     }
 
     aside.show {
@@ -506,18 +458,15 @@ h1 {
 
     .area--carrinho {
         width: 100vw;
-
     }
 
     .menu-fechado {
         display: block;
-
     }
 
     .modelosWindowArea {
         justify-content: flex-start;
         align-items: flex-start;
-
     }
 
     .modelosWindowBody {
@@ -527,35 +476,29 @@ h1 {
         border-radius: 0;
         box-shadow: none;
         margin: 0;
-
     }
 
     .modelosBig img {
         width: 75%;
         height: auto;
-
     }
 
     .modelosInfo h1 {
         margin-top: 20px;
-
     }
 
     .modelosInfo--qtarea {
         height: 60px;
-
     }
 
     .modelosInfo--qtarea button {
         font-size: 25px;
         padding: 0 25px;
-
     }
 
     .modelosInfo--qt {
         line-height: 60px;
         font-size: 20px;
-
     }
 
     .modelosInfo--addButton {
@@ -563,7 +506,6 @@ h1 {
         display: block;
         text-align: center;
         margin: 30px auto;
-
     }
 
     .modelosInfo--cancelButton {
