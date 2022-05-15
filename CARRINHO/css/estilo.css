@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #EEE;
+    background-color: rgb(249, 250, 181);
     font-family: 'Lato', Helvetica, Arial;
     font-size: 15px;
     display: flex;
@@ -22,7 +22,7 @@ header {
     top: 0;
     right: 0;
     height: 60px;
-    background-color: #399ADE;
+    background-color: #a80e05;
     display: none;
     justify-content: flex-end;
     align-items: center;
@@ -31,7 +31,7 @@ header {
 .menu-aberto {
     margin-right: 15px;
     font-size: 26px;
-    background-color: #A9DCFF;
+    background-color: #fabbbb;
     padding: 5px 20px;
     border-radius: 5px;
 
@@ -98,7 +98,16 @@ h1 {
     flex-direction: column;
     align-items: center;
     text-decoration: none;
+    background-color: none;
 
+}
+
+.modelos-item a:link{
+    background-color: none;
+}
+
+.modelos-item a:active{
+    background-color: white;
 }
 
 .modelos-item--img {
@@ -122,7 +131,7 @@ h1 {
     height: 50px;
     line-height: 50px;
     border-radius: 25px;
-    background-color: #388BC5;
+    background-color: #48D05F;
     text-align: center;
     color: #FFF;
     font-size: 22px;
@@ -133,7 +142,7 @@ h1 {
 }
 
 .modelos-item a:hover .modelos-item--add {
-    background-color: #244c88;
+    background-color: none;
 
 }
 
@@ -141,6 +150,7 @@ h1 {
     font-size: 15px;
     color: #333;
     margin-top: 5px;
+    font-weight: 800;
 
 
 }
@@ -172,11 +182,12 @@ h1 {
     justify-content: center;
     align-items: center;
     overflow-y: auto;
+    
 }
 
 .modelosWindowBody {
     width: 900px;
-    background-color: #FFF;
+    background-color: rgb(249, 250, 181);
     border-radius: 10px;
     box-shadow: 0px 0px 15px #999;
     display: flex;
@@ -218,14 +229,15 @@ h1 {
 
 .modelosInfo .modelosInfo--desc {
     font-size: 18px;
-    color: #999;
+    color: rgb(138, 38, 38);
     margin-top: 10px;
     font-family: Helvetica;
 
 }
 
 .modelosInfo--sector {
-    color: #CCC;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
     text-transform: uppercase;
     font-size: 14px;
     margin-top: 30px;
@@ -241,26 +253,34 @@ h1 {
 }
 
 .modelosInfo--sizes {
- 
+    
     padding: 10px 25px;
     color: #000;
-    background-color: #EEE;
+    background-color: rgb(241, 241, 241);
     font-size: 16px;
-    
+    box-shadow: 0px 2px 5px 0px black;
     font-weight: bold;
    cursor: pointer;
 
+}
+
+.buttonSize{
+    margin: 0.1em;
+    padding: 0.4em;
+    width: 5em;
+    text-align: center;
 }
  
 
 
 .modelosInfo--size:hover {
-    background-color: #CCC;
+    background-color: rgb(184, 179, 179);
 
 }
 
 .modelosInfo--size.selected {
-    background-color: #399ADE;
+    border-radius: 0.9em;
+    background-color: #48D05F;
     color: #FFF;
     
 
@@ -294,6 +314,7 @@ h1 {
 .modelosInfo--qtarea {  /* Fundo Botão + e - */
     display: inline-flex;
     background-color: #EEE;
+    box-shadow: 0px 2px 5px 0px black;
     border-radius: 10px;
     height: 30px;
 }
@@ -471,6 +492,7 @@ h1 {
     }
     aside.show{
         width: auto;
+        background-color: rgb(249, 250, 181);
     }
     .area--carrinho{
         width: 100vw;
